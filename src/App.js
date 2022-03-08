@@ -42,7 +42,7 @@ function App() {
       <h1>Iron contacts</h1>
       <div class="buttons">
         <button onClick={handleContacts}>Add Random Contact</button>
-        <button onClick={handleSortContactsPopularity}>
+        <button id="b2" onClick={handleSortContactsPopularity}>
           Sort by popularity
         </button>
         <button onClick={handleSortContactsName}>Sort by name</button>
@@ -50,7 +50,7 @@ function App() {
 
       <table class="table-flex">
         <thead>
-          <tr width="200px">
+          <tr>
             <th>Picture</th>
             <th>Name</th>
             <th>Popularity</th>
