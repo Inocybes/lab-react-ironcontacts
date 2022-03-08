@@ -48,7 +48,7 @@ function App() {
         <button onClick={handleSortContactsName}>Sort by name</button>
       </div>
 
-      <table class="table-flex">
+      <table>
         <thead>
           <tr>
             <th>Picture</th>
